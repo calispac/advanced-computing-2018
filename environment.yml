@@ -1,6 +1,7 @@
 name: adv-comp-18
 channels:
 - defaults
+- anaconda
 dependencies:
 - jupyter
 - matplotlib=2.0.2
@@ -9,5 +10,7 @@ dependencies:
 - scipy
 - pandas
 - keras
+# - keras-gpu
 - tensorflow
 - pillow
+- pydot
